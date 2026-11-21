@@ -22,7 +22,7 @@ All tools are read-only and return the data source and price check date.
 
 - **Claude Code:** `/plugin marketplace add synthentica/spotvahti-ai`, then `/plugin install spotvahti@spotvahti-ai`
 - **Claude (web/desktop):** Settings → Connectors → Add custom connector → `https://spotvahti.fi/mcp`
-- **ChatGPT:** search "SpotVahti" in Apps or GPTs
+- **ChatGPT:** add a custom connector with `https://spotvahti.fi/mcp`, or build a Custom GPT with the OpenAPI actions, see [chatgpt/README.md](chatgpt/README.md)
 - **Gemini CLI:** `gemini extensions install https://github.com/synthentica/spotvahti-ai`
 - **Any MCP client:** add `https://spotvahti.fi/mcp` as a remote (HTTP) server
 
@@ -30,6 +30,6 @@ All tools are read-only and return the data source and price check date.
 
 Contract data: SpotVahti (checked on suppliers' websites) and Energiavirasto / Sähkönhinta-palvelu, CC BY 4.0, modified (own verified prices added, fields combined). Spot prices: Ember, CC BY 4.0, original source Nord Pool. Prices are estimates; confirm with the supplier before ordering.
 
-Privacy: the server stores no personal data. See https://spotvahti.fi/en/app/privacy/ · Contact: info@spotvahti.fi
+Privacy: the server stores no personal data. See https://spotvahti.fi/en/privacy/#ai-assistants · Contact: info@spotvahti.fi
 
 Code in this repository: MIT licence.

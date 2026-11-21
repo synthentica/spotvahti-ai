@@ -2,6 +2,7 @@
   "name": "spotvahti",
   "version": "1.0.0",
   "description": "Compare Finnish electricity contracts (spot/pörssisähkö, fixed and hybrid) by estimated yearly cost, look up supplier terms, realized spot price statistics and grid transmission fees. Data from spotvahti.fi and Energiavirasto / Sähkönhinta-palvelu (CC BY 4.0).",
+  "icon": ".claude-plugin/icon.png",
   "author": {
     "name": "SpotVahti",
     "email": "info@spotvahti.fi",
