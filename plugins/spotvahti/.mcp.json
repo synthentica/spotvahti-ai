@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "spotvahti": { "type": "http", "url": "https://spotvahti.fi/mcp" }
+  }
+}

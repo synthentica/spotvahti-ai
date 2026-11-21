@@ -1,0 +1,9 @@
+{
+  "name": "spotvahti",
+  "version": "1.0.0",
+  "description": "Finnish electricity contract comparison, supplier terms, spot price statistics and grid transmission fees from spotvahti.fi.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "spotvahti": { "httpUrl": "https://spotvahti.fi/mcp" }
+  }
+}

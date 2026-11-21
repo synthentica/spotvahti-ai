@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "fi.spotvahti/spotvahti",
+  "title": "SpotVahti",
+  "description": "Compare Finnish electricity contracts by yearly cost; supplier terms, spot price statistics, transmission fees.",
+  "version": "1.0.0",
+  "websiteUrl": "https://spotvahti.fi/en/ai/",
+  "repository": { "url": "https://github.com/synthentica/spotvahti-ai", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://spotvahti.fi/mcp" }]
+}
