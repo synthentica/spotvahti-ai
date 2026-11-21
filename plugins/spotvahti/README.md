@@ -7,7 +7,8 @@ contracts by estimated yearly cost, supplier terms, realized spot price statisti
 
 Install in Claude Code:
 
-    /plugin install spotvahti --marketplace synthentica/spotvahti-ai
+    /plugin marketplace add synthentica/spotvahti-ai
+    /plugin install spotvahti@spotvahti-ai
 
 Ask for example: "Mikä on halvin pörssisähkösopimus omakotitaloon, jossa on maalämpö?" or
 "Which fixed-price electricity contract is cheapest for 5 000 kWh a year in Tampere?"

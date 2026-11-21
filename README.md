@@ -20,7 +20,7 @@ All tools are read-only and return the data source and price check date.
 
 ## Install
 
-- **Claude Code:** `/plugin install spotvahti --marketplace synthentica/spotvahti-ai`
+- **Claude Code:** `/plugin marketplace add synthentica/spotvahti-ai`, then `/plugin install spotvahti@spotvahti-ai`
 - **Claude (web/desktop):** Settings → Connectors → Add custom connector → `https://spotvahti.fi/mcp`
 - **ChatGPT:** search "SpotVahti" in Apps or GPTs
 - **Gemini CLI:** `gemini extensions install https://github.com/synthentica/spotvahti-ai`

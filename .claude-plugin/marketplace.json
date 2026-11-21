@@ -1,7 +1,13 @@
 {
-  "name": "spotvahti",
-  "owner": { "name": "SpotVahti", "email": "info@spotvahti.fi" },
-  "metadata": { "description": "Finnish electricity contract comparison and spot price data from spotvahti.fi", "version": "1.0.0" },
+  "name": "spotvahti-ai",
+  "owner": {
+    "name": "SpotVahti",
+    "email": "info@spotvahti.fi"
+  },
+  "metadata": {
+    "description": "Finnish electricity contract comparison and spot price data from spotvahti.fi",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "spotvahti",
