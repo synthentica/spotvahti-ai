@@ -3,8 +3,17 @@
   "name": "fi.spotvahti/spotvahti",
   "title": "SpotVahti",
   "description": "Compare Finnish electricity contracts by yearly cost, plus spot price statistics and grid fees.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://spotvahti.fi/en/ai/",
+  "icons": [
+    {
+      "src": "https://spotvahti.fi/img/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "480x480"
+      ]
+    }
+  ],
   "repository": {
     "url": "https://github.com/synthentica/spotvahti-ai",
     "source": "github"
