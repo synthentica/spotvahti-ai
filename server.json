@@ -1,10 +1,18 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "fi.spotvahti/spotvahti",
   "title": "SpotVahti",
-  "description": "Compare Finnish electricity contracts by yearly cost; supplier terms, spot price statistics, transmission fees.",
+  "description": "Compare Finnish electricity contracts by yearly cost, plus spot price statistics and grid fees.",
   "version": "1.0.0",
   "websiteUrl": "https://spotvahti.fi/en/ai/",
-  "repository": { "url": "https://github.com/synthentica/spotvahti-ai", "source": "github" },
-  "remotes": [{ "type": "streamable-http", "url": "https://spotvahti.fi/mcp" }]
+  "repository": {
+    "url": "https://github.com/synthentica/spotvahti-ai",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://spotvahti.fi/mcp"
+    }
+  ]
 }
